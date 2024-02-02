@@ -25,7 +25,7 @@ class _HomeScreenState extends State<HomeScreen> {
     email = jwtDecoder['email'];
   }
 
-  List<Widget> screen = [const DashBoard(), const Profile(), const Order()];
+  List<Widget> screen = [DashBoard(), const Profile(), const Order()];
 
   @override
   Widget build(BuildContext context) {
